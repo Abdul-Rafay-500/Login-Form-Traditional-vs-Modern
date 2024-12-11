@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form for students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="formbox">
+    <header>
+    <h4>Please fill this form to signup</h4>
+    </header>
+    <main>
+    <form action="action.php ">
+
+        
+        <input type="text" placeholder="Name" id="name">
+        
+        <input type="text" placeholder="Roll No.">
+        <br><br>
+        <input type="text" placeholder="Username">
+       
+        <input type="password" placeholder="password">
+        <br><br>
+        
+        <select name="city">
+            <option value="" disabled selected>Select your city</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Multan">Multan</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Sukkur">Sukkur</option>
+        </select>
+        
+        <br><br>
+        <h5 id="class">Select your class :</h5>
+        <label for="a" class="radio">
+        <input type="radio" value="class IX" name="class" id="a" >class IX
+        </label>
+        
+        <label for="b" class="radio">
+        <input type="radio" value="class X" name="class"  id="b">class X
+    </label>
+        
+        <label for="c" class="radio">
+        <input type="radio" value="class XI" name="class" id="c" >class XI
+        </label>
+        
+        <label for="d"class="radio">
+        <input type="radio" value="class XII" name="class"  id="d">class XII
+        </label>
+        <br><br>
+        <h5 id="subject">Select your subject :</h5>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="b">chemistry
+                </label>
+       
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="c">physics
+        </label>
+       
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="d">math
+        </label>
+        
+        <label for="computer science">
+            <input type="checkbox" value="computer science" name="subject" id="e">computer science
+        </label>
+    </main>
+    <br>
+        <footer><input type="submit" value="submit"></footer>
+    </form>
+</div>
+</body>
+</html>
